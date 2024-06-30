@@ -84,3 +84,57 @@
 }
 
 
+@media screen and (max-width:900px) {
+    .hero .img{
+        width: 55%;
+    }
+    .hero .info{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .hero .sidebar {
+        width: 10%;
+    }
+    .hero .img{
+        width: 50%;
+    }
+    .hero .info{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .hero{
+        display: block;
+        padding: 0;
+    }
+
+    .hero .sidebar{
+        display: flex;
+        width: 15%;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    .hero .sidebar img{
+        margin: 20px 0px 20px 30px;
+    }
+
+    .hero .img{
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero .info {
+        width: 100%;
+        margin: 0;
+        padding: 40px;
+    }
+
+    .hero .info button {
+        padding: 10px 0;
+    }
+}
+
