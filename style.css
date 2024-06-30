@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 30px;
+    display: flex;
+}
+.hero .sidebar{
+    width: 5%;
+}
+.hero .sidebar img{
+    width: 100%;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.hero .img{
+    width: 65%;
+   background-image: url(images/faith-yarn-Wr0TpKqf26s-unsplash.jpg);
+   background-size: cover;
+   background-position: center;
+   margin-left: 10px;
+}
+.hero .info{
+    width: 30%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero .info h6{
+    color: skyblue;
+}
+.hero .info h2{
+    font-size: 22px;
+    margin: 10px 0;
+}
+.hero .info p{
+    font-size: 12px;
+    opacity: 0.7;
+}
+.hero .info .price{
+    display: flex;
+    align-items: center;
+}
+.hero .info .price h2{
+    margin:  15px 0 2px 0;
+}
+.hero .info .price span{
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: skyblue;
+    padding: 3px;
+    color: blue;
+    border-radius: 2px;
+}
+
+.hero .info h4{
+    padding: 25px 0 3px 0;
+    font-size: 14px;
+}
+.hero .info .size{
+    margin-bottom: 20px;
+}
+.hero .info .size span{
+    font-size: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.hero .info button{
+    padding: 5px 0;
+    border: none;
+    background-color: rgb(42, 132, 168);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+
